@@ -239,6 +239,7 @@ form-group {
 
 .speed-tables {
     border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
 }
 
 .low-main h2 {
@@ -246,17 +247,80 @@ form-group {
 }
 
 .low-main h6 {
+    display: inline-block;
     margin-top: 2px;
     color: #fefeff;
 }
 
 .low-main span {
-    font-size: 12px;
+    font-size: 10px;
     color: #a9b9e1;
 }
 
 .low-main a {
+    font-size: 10px;
     color: #00d7d2;
+}
+
+/* LOW MAIN GRAY*/
+.low-main-gray h2 {
+    margin-bottom: 50px;
+}
+
+.box-white-gray {
+    width: 100%;
+    height: 350px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.low-main-gray img {
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.low-main-gray p {
+    font-size: 22px;
+    color: #75809a;
+}
+
+.low-main-gray h5 {
+    margin-bottom: 0;
+    color: #031c4e;
+}
+
+.low-main-gray span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.a-post-span {
+    font-size: 16px;
+    color: #006aff;
+}
+
+/* PRE FOOTER */
+.pre-footer {
+    background: #002ca7;
+}
+
+.pre-footer h2 {
+    color: #fff;
+}
+
+.pre-footer button {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pre-footer button a {
+    color: #006aff;
 }
 
 /* MEDIA QUERY DA 750PX --> 960PX */
@@ -382,4 +446,59 @@ form-group {
     }
 
     /* LOW MAIN */
+    .speed-tables {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 10px;
+    }
+
+    .low-main h2 {
+        color: #fff;
+    }
+
+    .low-main h6 {
+        display: inline-block;
+        margin-top: 2px;
+        color: #fefeff;
+    }
+
+    .low-main span {
+        font-size: 10px;
+        color: #a9b9e1;
+    }
+
+    .low-main a {
+        font-size: 10px;
+        color: #00d7d2;
+    }
+
+    /* LOW MAIN GRAY*/
+    .low-main-gray h2 {
+        margin-bottom: 50px;
+    }
+
+    .box-white-gray {
+        width: 100%;
+        max-width: 100%;
+        background: #fff;
+        border-radius: 5px;
+        margin-bottom: 60px;
+    }
+
+    .low-main-gray img {
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .low-main-gray p {
+        font-size: 22px;
+        color: #75809a;
+    }
+
+    .a-post-span {
+        font-size: 16px;
+        color: #006aff;
+        margin-bottom: 20px;
+    }
+
 }  
