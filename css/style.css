@@ -5,23 +5,22 @@
     margin: 2px;
 }
 
-.box-white {
-    width: 100%;
-    background: #fff;
-    border-radius: 5px;
-    margin-bottom: 60px;
-    padding: 10px;
-}
-
 section {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-footer a {
-    color: #86b4ce;
+.mg-bt {
+    margin-bottom: 25px;
 }
 
+.section-gray {
+    background: #f3f5f9;
+}
+
+.hblue-color {
+    color: #031c4e;
+}
 /* TYPOGRAPHY */
 body {
     font-family: 'Roboto', sans-serif;
@@ -37,10 +36,14 @@ h3,
 h4,
 h5 {
     font-weight: 700;
+    padding-top: 25px;
 }
 
 h6 {
+    font-size: 14px;
+    font-weight: 400;
     text-transform: uppercase;
+    color: #8c929d;
 }
 
 /* BUTTONS */
@@ -69,11 +72,6 @@ h6 {
     background: #fff;
 }
 
-/* FORM */
-form-group {
-    margin-bottom: 0;
-}
-
 /* HEADER */
 /* NAV-BAR */
 .nav-bar-header img {
@@ -99,6 +97,23 @@ form-group {
     background-position: center;
 }
 
+.img-bckg-header p {
+    font-size: 18px;
+    color: #bbcdff;
+}
+
+.box-white {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+form-group {
+    margin-bottom: 0;
+}
+
 /* BUTTONS BLUE IMG HEADER */
 .btn-header-img-google img {
     width: 6%;
@@ -107,5 +122,171 @@ form-group {
 }
 
 .btn-header-img-google span {
-    padding-left: 26%;
+    padding-left: 24%;
 }
+
+/* MAIN */
+/* TOP MAIN */
+.top-main img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.git-top-main {
+    margin-top: -20px;
+}
+
+.hashi1-top-main {
+    margin-top: 8px;
+}
+
+.hashi2-top-main {
+    margin-top: 20px;
+}
+
+.splunk-top-main {
+    margin-top: -90px;
+}
+
+.top-main a {
+    font-weight: 500;
+    color: #3a8aff;
+}
+
+/* SECOND MAIN BOX */
+.second-main p {
+    font-size: 18px;
+    color: #66728e;
+}
+
+.second-main .row-second-main {
+    margin-left: 3px;
+    border-left: 1px solid #cccccc;
+    padding-top: 20px;
+
+}
+
+.second-main .row-second-main a{
+    font-size: 18px;
+    color: #75809a;
+}
+
+.row-second-main-tablet-plus {
+    margin-left: 65px;
+    border-left: 1px solid #cccccc;
+    padding-top: 20px;
+}
+
+.row-second-main-tablet-plus  a{
+    font-size: 18px;
+    color: #75809a;
+}
+
+.second-main h3 {
+    font-weight: 500;
+    color: #031c4e;
+    padding-top: 0;
+}
+
+.img-box-second-main {
+    margin-top: 25px;
+}
+
+.img-box-second-main h3 {
+    font-size: 23px;
+}
+
+/* MEDIA QUERY DA 750PX --> 960PX */
+@media screen and (min-width: 750px) and (max-width: 969px) {
+    /* HEADER */
+    /* NAV-BAR */
+    .nav-bar-header img {
+        width: 50%;
+        height: 30px;
+        max-width: 100%;
+        margin-top: 5px;
+    }
+
+    .fa-bars {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-left: 60px;
+        color: #3a8aff;
+    }
+
+   /* HEADER BLUE IMG/H1 */
+   .img-bckg-header p {
+    font-size: 23px;
+    color: #bbcdff;
+    }
+
+    .box-white {
+        width: 80%;
+        background: #fff;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 60px;
+        margin-bottom: 60px;
+        padding: 30px;
+    }
+
+    .btn-header-img-google img {
+        width: 9%;
+        height: 20px;
+        max-width: 100%;
+    }
+    
+    .btn-header-img-google span {
+        padding-left: 20px;
+    }
+
+    .link-under-google {
+        font-size: 10px;
+    }
+
+    .link-under-google a {
+        text-decoration-line: underline;
+    }
+
+    /* MAIN */
+    /* TOP MAIN */
+    .top-main h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .top-main img {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .git-top-main {
+        padding-top: 5px;
+    }
+
+    .slack-top-main {
+        margin-top: -5px;
+    }
+    
+    .hashi1-top-main {
+        margin-top: 2px;
+    }
+    
+    .hashi2-top-main {
+        margin-top: 2px;
+    }
+    
+    .splunk-top-main {
+        margin-top: 13px;
+    }
+
+    /* SECONDARY MAIN BOX */
+    .second-main .p-second {
+        font-size: 23px;
+        margin-bottom: 80px;
+        color: #66728e;
+    }
+    
+    .second-main p {
+        font-size: 15px;
+    }
