@@ -1,0 +1,88 @@
+/* UTILITIES */
+.box {
+    height: 50px;
+    background: gray;
+    margin: 2px;
+}
+
+.box-white {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+footer a {
+    color: #86b4ce;
+}
+
+/* TYPOGRAPHY */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+/* BUTTONS */
+.btn-header-img {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #579aff;
+}
+
+.btn-header-img-google {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    box-shadow: 0.5px 0.5px #aaaaaa;
+    border: none;
+    border-radius: 5px;
+    color: #626262;
+    background: #fff;
+}
+
+/* FORM */
+form-group {
+    margin-bottom: 0;
+}
+
+/* HEADER */
+/* HEADER BLUE IMG/H1 */
+.img-bckg-header {
+    background-image: url('../img/bg-banner-home.jpg');
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* BUTTONS BLUE IMG HEADER */
+.btn-header-img-google img {
+    width: 6%;
+    height: 20px;
+    max-width: 100%;
+}
+
+.btn-header-img-google span {
+    padding-left: 26%;
+}
