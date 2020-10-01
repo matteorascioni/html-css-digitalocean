@@ -36,6 +36,7 @@ h3,
 h4,
 h5 {
     font-weight: 700;
+    color: #031c4e;
     padding-top: 25px;
 }
 
@@ -184,7 +185,6 @@ form-group {
 
 .second-main h3 {
     font-weight: 500;
-    color: #031c4e;
     padding-top: 0;
 }
 
@@ -194,6 +194,69 @@ form-group {
 
 .img-box-second-main h3 {
     font-size: 23px;
+}
+/* MID MAIN */
+.mid-main h2 {
+    margin-bottom: 25px;
+}
+
+.mid-main p {
+    font-size: 18px;
+    margin-bottom: 100px;
+    color: #66728e;
+}
+
+.mid-main img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.mid-main a {
+    color: #031c4e;
+}
+
+.mid-main i {
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+/* MID MAIN WHITE */
+/* SMALL PICTURES MID MAIN WHITE */
+.mid-main-white p {
+    font-size: 16px;
+    color: #75809a;
+}
+
+.mid-main-white a  {
+    color: #006aff;
+}
+
+/* LOW MAIN */
+.low-main {
+    background: #0041bf;
+}
+
+.speed-tables {
+    border-bottom: 1px solid #fff;
+}
+
+.low-main h2 {
+    color: #fff;
+}
+
+.low-main h6 {
+    margin-top: 2px;
+    color: #fefeff;
+}
+
+.low-main span {
+    font-size: 12px;
+    color: #a9b9e1;
+}
+
+.low-main a {
+    color: #00d7d2;
 }
 
 /* MEDIA QUERY DA 750PX --> 960PX */
@@ -290,3 +353,33 @@ form-group {
     .second-main p {
         font-size: 15px;
     }
+
+    /* MID MAIN */
+    .mid-main span {
+        color: #031c4e;
+        margin-bottom: 50px;
+    }
+
+    /* MID MAIN WHITE */
+    /* SMALL PICTURES MID MAIN WHITE */
+    .mid-main-white  h2 {
+        font-size: 35px;
+    }
+
+    .mid-main-white  h4 {
+        font-size: 22px;
+    }
+
+    .mid-main-white p {
+        font-size: 16px;
+        color: #75809a;
+    }
+
+    .mid-main-white a  {
+        font-size: 17px;
+        margin-bottom: 40px;
+        color: #006aff;
+    }
+
+    /* LOW MAIN */
+}  
