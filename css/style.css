@@ -18,6 +18,10 @@ section {
     margin-bottom: 50px;
 }
 
+.padding-0 {
+    padding: 0;
+}
+
 .section-gray {
     background: #f3f5f9;
 }
@@ -120,6 +124,7 @@ h6 {
 }
 
 .box-white h3 {
+    font-weight: 500;
     margin-top: -20px;
     color: #006aff;
 }
@@ -136,6 +141,7 @@ form-group {
 }
 
 .btn-header-img-google span {
+    font-weight: 500;
     padding-left: 24%;
 }
 
@@ -320,6 +326,7 @@ form-group {
     display: block;
     font-size: 15px;
     margin-bottom: 13px;
+    color: #031c4e;
 }
 
 .a-post-span {
@@ -401,7 +408,7 @@ form-group {
 
 /* INIZIO MEDIE QUERY */
 /* MEDIA QUERY DA 750PX --> 960PX TABLET */
-@media screen and (min-width: 750px) and (max-width: 969px) {
+@media screen and (min-width: 750px) {
     /* HEADER */
     /* NAV-BAR */
     .nav-bar-header img {
@@ -586,6 +593,7 @@ form-group {
     /* PRE-FOOTER */
     .pre-footer h2 {
         font-size: 40px;
+        font-weight: 500;
     }
 
     /* FOOTER */
@@ -594,3 +602,154 @@ form-group {
         color: #7a859d;
     }
 }  
+
+/* MEDIA QUERY 970PX --> 1169PX MD */
+@media screen and (min-width: 970px) {
+    /* NAV-BAR */
+    .nav-bar-header img {
+        width: 100%;
+        height: 30px;
+        max-width: 100%;
+        margin-top: 13px;
+    }
+
+    .nav-bar-header ul li {
+        padding: 7px;
+        padding-top: 20px;
+    }
+
+    .nav-bar-header ul li a  {
+        font-size: 16px;
+        color: #031c4e;
+    }
+
+    .btn-danger {
+        background: #fff;
+        border: 1px solid #006aff;
+        color: #006aff;
+        padding: 10px 20px;
+    }
+
+    /* HEADER BLUE IMG/H1 */
+    .img-bckg-header h1 {
+        font-size: 55px;
+        margin-top: 80px;
+    }
+
+    /* BOX WHITE IMG */
+    .box-white {
+        height: 420px;
+        margin-top: 40px;
+    }
+
+    .box-white h2 {
+        margin-top: -20px;
+    }
+
+    .box-white h3 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .box-white .form-group input {
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .box-white .btn-header-img-google {
+        margin-top: 10px;
+    }
+
+    .btn-header-img-google img {
+        width: 20px;
+    }
+
+    .btn-header-img-google span {
+        margin-left: 68px;
+    }
+
+    .link-under-google {
+        font-size: 12px;
+    }
+
+    /* TOP MAIN */
+    .docker-top-main {
+        margin-top: 8px;
+    }
+
+    .top-main .slack-top-main {
+        margin-top: 3px;
+    }
+
+    .hashi1-top-main {
+        margin-top: 13px;
+    }
+
+    .hashi2-top-main {
+        margin-top: 12px;
+    }
+
+    .splunk-top-main {
+        margin-top: 33px;
+    }
+
+    /* SECOND MAIN BOX */
+    .img-box-second-main-plus {
+        margin-left: 290px;
+    }
+
+    .img-box-second-main-plus-2 {
+        margin-left: 15px;
+    }
+    /* MID MAIN */
+    .mid-main h2 {
+        font-size: 35px;
+    }
+
+    .mid-main p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* LOW MAIN GRAY */
+    .low-main-gray h5 {
+        font-size: 20px;
+    }
+
+    .low-main-gray img {
+        max-width: 40%;
+        padding-top: 50px;
+    }
+
+    .low-main-gray span {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    /* FOOTER */
+    .ul-mid-footer {
+        margin-top: 110px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY DA 1170PX -->  */
+@media screen and (min-width: 1170px) {
+    .img-box-second-main-plus {
+        margin-left: 345px;
+    }
+
+    .img-box-second-main-plus-2 {
+        margin-left: 5px;
+    }
+}

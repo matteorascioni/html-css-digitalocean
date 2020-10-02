@@ -17,6 +17,7 @@
 
     <!-- HEADER -->
     <header>
+
         <!-- NAV-BAR -->
         <section class="container nav-bar-header">
             <div class="row">
@@ -24,16 +25,50 @@
                 <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
                     <img src="./img/do-logo.png" alt="">
                 </div>
+
                 <!-- CENTER NAV-BAR ONLY MD LG -->
-                <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 hidden-xs hidden-sm">
-                    <div class="box"></div>
+                <div class="text-center hidden-xs hidden-sm col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Products
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Costumers</a>
+                        </li>
+                        <li>
+                            <a href="#">Community
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                    </ul>
                 </div>
+
                 <!-- RIGHT NAV-BAR -->
-                <div class="col-xs-3 col-xs-offset-3 col-sm-2 col-sm-offset-4 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
+                <div class="text-right col-xs-3 col-xs-offset-3 col-sm-2 col-sm-offset-4 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
                     <a href="#">
                     <i class="fas fa-bars hidden-md hidden-lg"></i>
                     </a>
-                    <div class="hidden-xs hidden-sm box"></div>
+                    <div class="hidden-xs hidden-sm">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#">Docs</a>
+                            </li>
+                            <li>
+                                <a href="#">Support
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <button type="button" class="btn btn-danger">Sing Up</button>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -44,7 +79,7 @@
                 <!-- LEFT HEADER BLUE IMG -->
                 <div class="text-left col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <h1>The simplest cloud platform for developers & teams</h1>
-                    <p>Deploy, manage, and scale cloud applications faster and more efficently on DigitalOcean. We make managing infrastucture easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+                    <p class="mg-bt-50">Deploy, manage, and scale cloud applications faster and more efficently on DigitalOcean. We make managing infrastucture easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
                 </div>
                 <!-- RIGHT HEADER BLUE IMG -->
                 <div class="text-center col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -70,8 +105,10 @@
                             <img class="text-left" src="./img/google-icon.png" alt="">
                             <span>Sign up with google </span>
                         </button>
-                        <span class="link-under-google">By signing up you agree to the terms <a href="#">Terms of service.</a>
-                        </span>
+                        <div class="text-center col-md-12">
+                            <span class="link-under-google">By signing up you agree to the terms <a href="#">Terms of service.</a>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,7 +128,7 @@
             <!-- LOGHI TOP MAIN -->
             <div class="row">
                 <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                    <img src="./img/docker.png" alt="">
+                    <img class="docker-top-main" src="./img/docker.png" alt="">
                 </div>
                 <div class="git-top-main col-xs-6 col-sm-2 col-md-2 col-lg-2">
                     <img src="./img/gitlab.png" alt="">
@@ -164,12 +201,12 @@
                     </div>
                 </div>
             
-                <div class="col-xs-12 col-sm-3 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 img-box-second-main">
+                <div class="col-xs-12 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2 img-box-second-main">
                     <img src="./img/cluster-deploy.svg" alt="">
                     <h3>Cluster deployments</h3>
                     <p>Provision multiple Droplets (Virtual machines) in seconds with<br>theour control planet, CLI or directly against our API.</p>
                 </div>
-                <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4 img-box-second-main">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 img-box-second-main">
                     <img src="./img/optimized-compute.svg" alt="">
                     <h3>Optimized compute types</h3>
                     <p>Get the compute resources you need with standard or Optimized
@@ -188,20 +225,32 @@
                 </div>
             </div>
 
-            <!-- ROW CREATA PER OTTIMIZZARE LA GRIGLIA DA TABLET IN SU -->
-            <div class="row">
-                <div class=" mg-bt hidden-xs col-sm-3 col-sm-offset-4 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3 img-box-second-main">
+            <!-- ROW CREATA PER OTTIMIZZARE LA GRIGLIA DA TABLET -->
+                <div class="img-box-second-main img-box-second-main-plus mg-bt hidden-xs hidden-md hidden-lg col-sm-3 col-sm-offset-4">
                     <img src="./img/one-click.svg" alt="">
                     <h3>One-click apps</h3>
                     <p>Skip the install and configuration process with pre-built open<br>
                     source images supporting Rails, Cassandra, Docker, and more. </p>
                 </div>
-                <div class="mg-bt hidden-xs col-sm-3 col-md-4 col-lg-4 img-box-second-main">
+                <div class="mg-bt img-box-second-main img-box-second-main-plus hidden-xs hidden-md hidden-lg col-sm-3">
                     <img src="./img/global.svg" alt="">
                     <h3>Global availability</h3>
                     <p>Deploy to any of our data center regions around the world. </p>
                 </div>
-            </div>
+
+                <!-- ROW CREATA PER OTTIMIZZARE LA GRIGLIA DESKTOP -->
+                <div class="img-box-second-main img-box-second-main-plus mg-bt hidden-xs 
+                hidden-sm col-md-3 col-md-offset-4 col-lg-3 col-lg-offset-4">
+                    <img src="./img/one-click.svg" alt="">
+                    <h3>One-click apps</h3>
+                    <p>Skip the install and configuration process with pre-built open<br>
+                    source images supporting Rails, Cassandra, Docker, and more. </p>
+                </div>
+                <div class="mg-bt img-box-second-main img-box-second-main-plus-2 hidden-xs hidden-sm col-md-3 col-lg-3">
+                    <img src="./img/global.svg" alt="">
+                    <h3>Global availability</h3>
+                    <p>Deploy to any of our data center regions around the world. </p>
+                </div>
         </section>
 
         <!-- MID MAIN -->
@@ -230,7 +279,7 @@
         </section>
 
         <!-- MID MAIN WHITE -->
-        <section class="mid-main-white container-fluid">
+        <section class="mid-main-white container">
             <div class="text-left row">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2">
                     <h2 class="text-center mg-bt">The features your business needs</h2>
