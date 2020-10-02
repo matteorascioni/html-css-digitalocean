@@ -10,6 +10,10 @@ section {
     padding-bottom: 15px;
 }
 
+footer {
+    background: #031c4e;
+}
+
 .mg-bt {
     margin-bottom: 25px;
 }
@@ -108,6 +112,7 @@ h6 {
 
 .img-bckg-header p {
     font-size: 18px;
+    margin-left: 30px;
     color: #bbcdff;
 }
 
@@ -120,6 +125,7 @@ h6 {
 }
 
 .box-white h2 {
+    margin-top: -20px;
     font-size: 28px;
 }
 
@@ -431,6 +437,11 @@ form-group {
     color: #bbcdff;
     }
 
+    .img-bckg-header h1 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
     .box-white {
         width: 80%;
         background: #fff;
@@ -712,13 +723,17 @@ form-group {
     }
 
     /* LOW MAIN GRAY */
+    .box-white-gray {
+        height: 430px;
+    }
+
     .low-main-gray h5 {
         font-size: 20px;
     }
 
     .low-main-gray img {
         max-width: 40%;
-        padding-top: 50px;
+        padding-top: 80px;
     }
 
     .low-main-gray span {
@@ -733,18 +748,14 @@ form-group {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERY DA 1170PX -->  */
 @media screen and (min-width: 1170px) {
+    /* HEADER BLUE IMG */
+    .img-bckg-header h1 {
+        font-size: 65px;
+        margin-top: 80px;
+    }
+    /* SECOND MAIN */
     .img-box-second-main-plus {
         margin-left: 345px;
     }
@@ -752,4 +763,10 @@ form-group {
     .img-box-second-main-plus-2 {
         margin-left: 5px;
     }
-}
+
+    /* LOW MAIN GRAY*/
+    .low-main-gray h2 {
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+}   
