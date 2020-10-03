@@ -1,10 +1,4 @@
 /* UTILITIES */
-.box {
-    height: 50px;
-    background: gray;
-    margin: 2px;
-}
-
 section {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -412,6 +406,44 @@ form-group {
     font-size: 16px;
 }
 
+/* POSITION FIXED IMG */
+.fixed-shark {
+    position: fixed;
+    width: 15%;
+    height: 60px;
+    left: 45px;
+    bottom: 100px;
+    border-radius: 5px;
+    background: #006aff;
+}
+
+.fixed-shark img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 6px 0px;
+
+}
+
+.last-fixed {
+    position: fixed;
+    width: 80%;
+    height: 60px;
+    max-width: 80%;
+    padding: 10px 5px;
+    left: 45px;
+    bottom: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.last-fixed p {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 100%;
+    color: #031c4e;
+}
+
 /* INIZIO MEDIE QUERY */
 /* MEDIA QUERY DA 750PX --> 960PX TABLET */
 @media screen and (min-width: 750px) {
@@ -612,6 +644,20 @@ form-group {
         font-size: 26px;
         color: #7a859d;
     }
+
+    /* POSITION FIXED IMG */
+    .fixed-shark {
+        width: 8%;
+    }
+
+    .last-fixed {
+        width: 45%;
+    }
+
+    .last-fixed p {
+        font-size: 16px;
+    }
+    
 }  
 
 /* MEDIA QUERY 970PX --> 1169PX MD */
@@ -631,6 +677,7 @@ form-group {
 
     .nav-bar-header ul li a  {
         font-size: 16px;
+        text-decoration: none;
         color: #031c4e;
     }
 
@@ -639,6 +686,13 @@ form-group {
         border: 1px solid #006aff;
         color: #006aff;
         padding: 10px 20px;
+        transition: background 1s;
+    }
+
+    .btn-danger:hover {
+        background: #006aff;
+        color: #fff;
+        border: 1px solid #006aff;
     }
 
     /* HEADER BLUE IMG/H1 */
@@ -722,6 +776,10 @@ form-group {
         font-weight: 500;
     }
 
+    .mid-main i {
+        margin-top: 140px;
+    }
+
     /* LOW MAIN GRAY */
     .box-white-gray {
         height: 430px;
@@ -741,6 +799,11 @@ form-group {
         font-weight: 500;
     }
 
+    /* PRE FOOTER */
+    .pre-footer button a {
+        text-decoration: none;
+    }
+
     /* FOOTER */
     .ul-mid-footer {
         margin-top: 110px;
@@ -750,11 +813,40 @@ form-group {
 
 /* MEDIA QUERY DA 1170PX -->  */
 @media screen and (min-width: 1170px) {
+    /* NAV BAR */
+    .nav-bar-header img {
+        height: 35px;
+    }
+
     /* HEADER BLUE IMG */
     .img-bckg-header h1 {
         font-size: 65px;
         margin-top: 80px;
     }
+
+    /* BOX WHITE BLUE IMG */
+    .btn-header-img-google span {
+        margin-left: 132px;
+    }
+
+    /* TOP MAIN */
+    .git-top-main {
+        margin-top: -25px;
+    }
+
+    .hashi1-top-main {
+        margin-top: 18px;
+    }
+
+    .hashi2-top-main {
+        margin-top: 18px;
+    }
+
+    .splunk-top-main {
+        height: 50px;
+        margin-top: 50px;
+    }
+
     /* SECOND MAIN */
     .img-box-second-main-plus {
         margin-left: 345px;
@@ -762,6 +854,11 @@ form-group {
 
     .img-box-second-main-plus-2 {
         margin-left: 5px;
+    }
+
+    /* MID MAIN */
+    .mid-main i {
+        margin-top: 175px;
     }
 
     /* LOW MAIN GRAY*/
