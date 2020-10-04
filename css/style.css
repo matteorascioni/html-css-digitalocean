@@ -817,10 +817,13 @@ form-group {
      /* POSITION FIXED IMG */
      .fixed-shark {
         width: 5%;
+        left: 1000px;
+        bottom: 21px;
     }
 
     .last-fixed {
         width: 30%;
+        left: 650px;
     }
 }
 
@@ -881,7 +884,15 @@ form-group {
     }
 
      /* POSITION FIXED IMG */
+     .fixed-shark {
+        width: 5%;
+        left: 1300px;
+        bottom: 50px;
+    }
+
     .last-fixed {
         width: 28%;
+        left: 890px;
+        bottom: 50px;
     }
 }   
