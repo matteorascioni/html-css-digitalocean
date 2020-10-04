@@ -780,6 +780,11 @@ form-group {
         margin-top: 140px;
     }
 
+    /* LOW MAIN */
+    .low-main span {
+        font-size: 12px;
+    }
+
     /* LOW MAIN GRAY */
     .box-white-gray {
         height: 430px;
