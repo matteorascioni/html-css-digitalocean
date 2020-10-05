@@ -105,7 +105,7 @@ h6 {
 }
 
 .img-bckg-header p {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 30px;
     color: #bbcdff;
 }
@@ -214,6 +214,11 @@ form-group {
     padding-top: 0;
 }
 
+.second-main p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .img-box-second-main {
     margin-top: 25px;
 }
@@ -249,6 +254,15 @@ form-group {
 .mid-main i {
     font-size: 30px;
     margin-top: 100px;
+}
+
+/* CIRCLE ICONS MID MAIN SOTTO IMG */
+.circle .fa-circle {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #006aff;
 }
 
 /* MID MAIN WHITE */
@@ -303,7 +317,6 @@ form-group {
     max-width: 100%;
     background: #fff;
     border-radius: 5px;
-    margin-bottom: 60px;
 }
 
 .low-main-gray img {
@@ -331,6 +344,14 @@ form-group {
 
 .a-post-span {
     font-size: 16px;
+    color: #006aff;
+}
+
+/* LOW MAIN GRAY CIRCLE ICONS */
+.low-main-circle .fa-circle {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 60px;
     color: #006aff;
 }
 
@@ -425,6 +446,25 @@ form-group {
 
 }
 
+.fixed-shark i {
+    position: fixed;
+    font-size: 20px;
+    left: 90px;
+    bottom: 140px;
+    border: 4px solid #fff;
+    border-radius:100%;
+    color: red;
+}
+
+.fixed-shark i span {
+    position: fixed;
+    font-size: 13px;
+    font-weight: 700;
+    left: 101px;
+    bottom: 148px;
+    color: #fff;
+}
+
 .last-fixed {
     position: fixed;
     width: 80%;
@@ -465,8 +505,7 @@ form-group {
 
    /* HEADER BLUE IMG/H1 */
    .img-bckg-header p {
-    font-size: 23px;
-    color: #bbcdff;
+    font-size: 20px;
     }
 
     .img-bckg-header h1 {
@@ -613,7 +652,6 @@ form-group {
         height: 350px;
         background: #fff;
         border-radius: 5px;
-        margin-bottom: 60px;
     }
 
     .low-main-gray img {
@@ -631,6 +669,11 @@ form-group {
         font-size: 16px;
         color: #006aff;
         margin-bottom: 20px;
+    }
+
+    /* LOW MAIN GRAY CIRCLE ICONS */
+    .low-main-circle .fa-circle {
+        margin-top: -50px;
     }
 
     /* PRE-FOOTER */
@@ -780,6 +823,16 @@ form-group {
         margin-top: 140px;
     }
 
+/* CIRCLE ICONS MID MAIN SOTTO IMG */
+    .circle .fa-circle {
+        margin-top: -35px;
+    }
+
+    .circle .fa-circle:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+
     /* LOW MAIN */
     .low-main span {
         font-size: 12px;
@@ -804,6 +857,16 @@ form-group {
         font-weight: 500;
     }
 
+    /* LOW MAIN GRAY CIRCLE ICONS */
+    .low-main-circle .fa-circle {
+        margin-top: -50px;
+    }
+
+    .low-main-circle .fa-circle:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+
     /* PRE FOOTER */
     .pre-footer button a {
         text-decoration: none;
@@ -812,6 +875,7 @@ form-group {
     /* FOOTER */
     .ul-mid-footer {
         margin-top: 110px;
+        margin-bottom: 100px;
     }
 
      /* POSITION FIXED IMG */
@@ -819,6 +883,17 @@ form-group {
         width: 5%;
         left: 1000px;
         bottom: 21px;
+    }
+
+    .fixed-shark i {
+        left: 1040px;
+        bottom: 60px;
+    }
+    
+    .fixed-shark i span {
+        font-size: 14px;
+        left: 1051px;
+        bottom: 68px;
     }
 
     .last-fixed {
@@ -877,10 +952,20 @@ form-group {
         margin-top: 175px;
     }
 
+    /* CIRCLE ICONS MID MAIN SOTTO IMG */
+    .circle .fa-circle {
+        font-size: 14px;
+    }
+
     /* LOW MAIN GRAY*/
     .low-main-gray h2 {
         font-size: 40px;
         margin-bottom: 100px;
+    }
+
+    /* LOW MAIN GRAY CIRCLE ICONS */
+    .low-main-circle .fa-circle {
+        font-size: 14px;
     }
 
      /* POSITION FIXED IMG */
@@ -890,9 +975,19 @@ form-group {
         bottom: 50px;
     }
 
+    .fixed-shark i {
+        left: 1350px;
+        bottom: 90px;
+    }
+
+    .fixed-shark i span {
+        left: 1361px;
+        bottom: 98px;
+    }
+
     .last-fixed {
-        width: 28%;
-        left: 890px;
-        bottom: 50px;
+        width: 22%;
+        left: 980px;
+        bottom: 50px ;
     }
 }   
