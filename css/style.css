@@ -711,17 +711,16 @@ form-group {
         width: 90%;
         height: 30px;
         max-width: 100%;
-        margin-top: 13px;
     }
 
     .nav-bar-header ul {
         display: flex;
-        list-style: none;
         justify-content: space-between;
+        list-style: none;
     }
 
     .nav-bar-header ul li { 
-        padding: 3px;
+        padding-top: 13px;
     }
 
     .nav-bar-header ul li a  {
